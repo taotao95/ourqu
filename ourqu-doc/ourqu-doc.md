@@ -27,7 +27,9 @@
     - ps.模态框的id=myModal
 * 模态框的的结构如下
     - ![Alt text](modal.jpg)
+
 ##标签页
+
 * 活动列表页和用户资料页面都使用了标签页.
     - ![Alt text](tab-1.jpg)
 * 标签的结构如下 
@@ -40,6 +42,7 @@
 * `<input type="text" class="form-control" id="inputError">`![Alt text](input-2.jpg)
 
 ##分页控件##
+
 * 激活和禁用状态
     - 链接在不同情况下可以定制。
     - 给不能点击的链接对应的li用.disabled,并且用.active显示是当前页。
