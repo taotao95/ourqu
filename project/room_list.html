@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>Ourqu-活动</title>
+    <meta name="description" content="" >
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/7.3/styles/github.min.css"/>
+    <link rel="stylesheet" href="style/tao.css"/>
+</head>
+<body>
+<nav class="navbar navbar-default tao-nav navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand tao-logo" href="#">Ourqu</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-default dropdown-toggle tao-choose" data-toggle="dropdown">
+                        常州 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">进入其他城市</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="./indexv2.html">首页</a></li>
+            <li class="active"><a href="./room_list.html">活动</a></li>
+            <li><a href="#">关于</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="btn-group">
+                <button type="button" class="btn btn-primary">发起新的活动</button>
+            </li>
+            <li><a href="#">消息<span class="badge pull-right">4</span></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">TATOOO <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+
+                    <li><a href="#">我的Ourqu</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">退出登录</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+<div class="tao-position"></div>
+<!-- 分类和地区选择 -->
+<div class="container tao-body-container">
+    <ol class="breadcrumb">
+        <li><a href="#">Ourqu</a></li>
+        <li class="active">活动</li>
+    </ol>
+    <ul class="nav nav-tabs" id="myTab">
+        <li class="active"><a href="#All" data-toggle="tab">所有活动</a></li>
+        <li><a href="#Hot" data-toggle="tab">热门</a></li>
+        <li><a href="#type-1" data-toggle="tab">美食</a></li>
+        <li><a href="#type-2" data-toggle="tab">旅游</a></li>
+        <li><a href="#type-3" data-toggle="tab">娱乐</a></li>
+        <li><a href="#type-4" data-toggle="tab">聚会</a></li>
+        <li><a href="#type-4" data-toggle="tab">其他</a></li>
+
+    </ul>
+    <!--<hr class="tao-list-hr"/>-->
+    <div class="container tab-content">
+        <div class="tab-pane active" id="All">
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-2.jpg" alt="...">
+                    <div class="caption">
+                        <h3>石器烧烤聚餐,come on!<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
+                        <p class="tao-list-detail">来吧，详细介绍</p>
+                        <p><a href="#" class="btn btn-primary" role="button">加入</a> <a href="#" class="btn btn-default" role="button">收藏</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-3.jpg" alt="...">
+                    <div class="caption">
+                        <h3>85度蛋糕<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
+                        <p class="tao-list-detail">一句话介绍，最好几个字我来看看</p>
+                        <p><a href="#" class="btn btn-primary" role="button">加入</a> <a href="#" class="btn btn-default" role="button">收藏</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-4.jpg" width="250" height="230" alt="...">
+                    <div class="caption">
+                        <h3>中华恐龙园<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
+                        <p class="tao-list-detail">一句话介绍</p>
+                        <p><a href="#" class="btn btn-default" role="button">已结束，无法加入</a> <a href="#" class="btn btn-default" role="button">查看</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>豆瓣线下活动，进来看看～<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
+                        <p class="tao-list-detail">...</p>
+                        <p><a href="#" class="btn btn-success" role="button">已加入,进去看看</a> <a href="#" class="btn btn-danger" role="button">已收藏</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-2.jpg" alt="...">
+                    <div class="caption">
+                        <h3>标题字数不要太多不要太多<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
+                        <p class="tao-list-detail">一句话介绍，字数不要超</p>
+                        <p><a href="#" class="btn btn-primary" role="button">加入</a> <a href="#" class="btn btn-default" role="button">收藏</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>标题字数不要太多不要太多<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
+                        <p class="tao-list-detail">一句话介绍，字数不要超</p>
+                        <p><a href="#" class="btn btn-primary" role="button">加入</a> <a href="#" class="btn btn-default" role="button">收藏</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-5.jpg" alt="...">
+                    <div class="caption">
+                        <h3>标题字数不要太多不要太多<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
+                        <p class="tao-list-detail">一句话介绍，字数不要超</p>
+                        <p><a href="#" class="btn btn-primary" role="button">加入</a> <a href="#" class="btn btn-default" role="button">收藏</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="Hot"></div>
+        <div class="tab-pane" id="type-1"></div>
+        <div class="tab-pane" id="type-2"></div>
+        <div class="tab-pane" id="type-3"></div>
+        <div class="tab-pane" id="type-4"></div>
+        <div class="tab-pane" id="type-5"></div>
+    </div>
+    <div class="container">
+        <div class="col-md-12" style="text-align: center;">
+            <ul class="pagination">
+                <li class="disabled"><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="global-footer">
+    <p>
+        <a href="#">关于ourqu</a>&nbsp;&nbsp;<a href="#">联系我们</a>&nbsp;&nbsp;<a href="#">帮助中心</a>&nbsp;&nbsp;<a href="#">商务合作</a>
+    </p>
+    <p>&copy; 2012－2013 ourqu.com, all rights reserved</p>
+</div>
+</body>
+<script type="text/javascript" src="http://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+</html>

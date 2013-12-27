@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>Ourqu-创建新的活动</title>
+    <meta name="description" content="" >
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style/bootstrap-datetimepicker.min.css"/>
+    <!--<link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/css/bootstrap-theme.min.css"/>-->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/7.3/styles/github.min.css"/>
+    <link rel="stylesheet" href="style/tao.css"/>
+
+
+</head>
+<body>
+<nav class="navbar navbar-default tao-nav navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Ourqu</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle tao-choose" data-toggle="dropdown">
+                        常州 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">进入其他城市</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">首页</a></li>
+            <li class="active"><a href="#">活动</a></li>
+            <li><a href="#">关于</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">消息<span class="badge pull-right">4</span></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">TATOOO <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">我的Ourqu</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">退出登录</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+<div class="tao-position"></div>
+<div class="container tao-body-container">
+    <ol class="breadcrumb">
+        <li><a href="#">Ourqu</a></li>
+        <li><a href="#">活动</a></li>
+        <li class="active">创建新的活动</li>
+    </ol>
+    <div class="row">
+        <div class="col-md-7">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">选择分类</label>
+                    <div class="col-sm-2 tao-div-2">
+                        <select class="form-control tao-select">
+                            <option>美食</option>
+                            <option>娱乐</option>
+                            <option>聚会</option>
+                            <option>旅游</option>
+                            <option>其他</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">活动名称</label>
+                    <div class="col-sm-4">
+                        <input type="email" class="form-control" id="new_room_1" placeholder="活动名称">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">开始时间</label>
+                    <div class="col-sm-4">
+                        <input class="form-control" type="text" placeholder="选择活动开始时间" id="datetimepicker" data-date-format="yyyy-mm-dd">
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">结束时间</label>
+
+                    <div class="col-sm-4">
+                        <input class="form-control" type="text"  placeholder="选择活动结束时间" id="datetimepicker2">
+                    </div>
+
+
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">活动封面</label>
+
+                    <div class="col-sm-4">
+                        <input type="file" class="form-control" />
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">一句话介绍</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="new_room_2" placeholder="一句话介绍">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">活动地点</label>
+                    <div class="col-md-2 tao-div-2">
+                        <select class="form-control tao-select">
+                            <option>江苏省</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 tao-div-2">
+                        <select class="form-control tao-select">
+                            <option>常州市</option>
+
+                        </select>
+                    </div>
+                    <div class="col-md-2 tao-div-2">
+                        <select class="form-control tao-select">
+                            <option>武进区</option>
+                            <option>钟楼区</option>
+                            <option>天宁区</option>
+                            <option>新北区</option>
+                            <option>戚墅堰区</option>
+                            <option>金坛区</option>
+                            <option>溧阳区</option>
+
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="new_room_5" placeholder="详细地点">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">活动详情</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" rows="5"></textarea>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">完成，创建活动</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+<div class="global-footer">
+    <p>
+        <a href="#">关于ourqu</a>&nbsp;&nbsp;<a href="#">联系我们</a>&nbsp;&nbsp;<a href="#">帮助中心</a>&nbsp;&nbsp;<a href="#">商务合作</a>
+    </p>
+    <p>&copy; 2012－2013 ourqu.com, all rights reserved</p>
+</div>
+</body>
+<script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.zh-CN.js"></script>
+<script type="text/javascript" src="js/date.js"></script>
+<!-- 日期选择错误时的弹出框 -->
+<div id="myModal" class="modal fade bs-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">提示</h4>
+            </div>
+            <div class="modal-body">
+                您选择的结束日期早于开始日期，请点击任意位置重新选择！
+            </div>
+        </div>
+    </div>
+</div>
+</html>
