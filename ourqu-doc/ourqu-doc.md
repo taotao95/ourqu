@@ -32,6 +32,7 @@
     - ![Alt text](tab-1.jpg)
 * 标签的结构如下 
     - ![Alt text](tab.jpg)
+
 ##表单验证
 
 * 通过改变input的id来改变相应的输入框状态
@@ -39,7 +40,6 @@
 * `<input type="text" class="form-control" id="inputError">`![Alt text](input-2.jpg)
 
 ##分页控件##
-
 * 激活和禁用状态
     - 链接在不同情况下可以定制。
     - 给不能点击的链接对应的li用.disabled,并且用.active显示是当前页。
