@@ -6,14 +6,7 @@ $('.tao-reply-btn').click(function(){
     tname = '回复' + t + '的：';
     $('#room-reply-text').append(tname);
 })
-/** stickUp **/
-jQuery(function($) {
-    $(document).ready( function() {
-        //enabling stickUp on the '.navbar-wrapper' class
-        $('.navbar-wrapper').stickUp();
-    });
 
-});
 
 $('.banner').unslider({
 });

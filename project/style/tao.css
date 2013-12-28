@@ -17,12 +17,14 @@
 .tao-ad{position: relative;left: 70px;display:block;}
 .tao-new-btn{margin: 20px 0 0 70px;}
 
+
+
 .tao-jumbotron{background: url(../img/index-banner-2.jpg) no-repeat left top;width: 1170px;height: 308px;}
 .tao-jumbotron>ul>li{font-size: 16px;color:#fff;}
 .tao-jumbotron>h3{color: #ffffff;font-family: '微软雅黑'}
 
-.tao-list-item{width: 285px;height: 374px;}
-.tao-list-item>.thumbnail>img{width: 250px!important;height: 220px!important;}
+.tao-list-item{width: 270px;}
+.tao-list-item>.thumbnail>img{width: 230px!important;height: 220px!important;}
 .tao-list-item h3{font-size: 14px!important;font-weight: bold;margin-top: 10px!important;}
 .tao-list-detail{font-size: 12px!important;}
 .tao-list-color{background: #3276b1!important;}
@@ -37,6 +39,10 @@
 
 .tao-content{padding: 0 0 0 20px;width: 705px;}
 .tao-content>p{line-height: 22px;}
+
+.banner-ad{margin: 0 0 20px 0;border: 1px solid #eeeeee;}
+.banner-ad>a{display: block;width: 811px;height:90px;}
+.banner-ad>a>img{width: 810px;}
 
 .tao-textarea{width: 720px;padding: 20px 0 0 35px;}
 .tao-list-user{position: relative;left: -24px;margin-right: -10px;}
@@ -59,7 +65,7 @@
 .tao-position{height: 70px;width: 100%;}
 .tao-position-ab{height: 50px;width: 100%;}
 
-.tao-choose{font-size: 13px;width: 60px!important;height: 30px!important;border: 0!important;position: relative;top: 4px;}
+.tao-choose{font-size: 13px;width: 60px!important;height: 30px!important;border: 0!important;position: relative;top: 4px;background: #f8f8f8!important;}
 
 .global-footer{width: 100%;padding: 30px 0;text-align: center;color: #999;border-top: 1px solid #e5e5e5;background: #f5f5f5;}
 
@@ -69,7 +75,7 @@
 .banner h1{font-size: 40px;line-height: 52px;color: #fff;font-family: '微软雅黑';}
 .banner .inner {padding: 140px 0 110px;}
 .tao-index-leftT{margin-bottom: 20px;border-left: 5px solid #3276b1;background: #e7e7e7;height: 40px;position: relative;}
-.tao-btn-index-more{position: absolute;right: 30px;top: 0;display: block;height: 40px;line-height: 40px;font-weight: bold;}
+.tao-btn-index-more{position: absolute;right: 30px;top: 0;display: block;height: 40px;line-height: 40px;}
 .tao-index-leftT>h1{font-family: '微软雅黑';font-size: 18px;margin: 0 0 0 0!important;line-height: 40px;}
 .tao-index-re{position: relative;left: 20px;}
 
@@ -88,3 +94,15 @@
 .mailList input+span{margin: 0 60px 0 16px}
 .mailList span{display: inline-block;min-width: 90px;}
 .mailDate{float: right;color: #b3b3b3;font-size: 12px;margin: 0 4px 0 0;}
+
+#tao-search{position: relative;top: 8px;}
+#tao-search-btn{height:34px!important;}
+.tao-hhh4{margin-bottom: 0!important;margin-top: 25px!important;}
+.tao-index-hr{margin-top: 4px!important;margin-bottom: 10px!important;}
+.tao-ul{margin: 0!important;padding: 0!important;}
+.tao-ul>li{list-style: none;display:block;width: 45px;height: 45px;float: left;margin-right: 7px;margin-bottom: 7px;}
+.tao-margin{padding-left: 50px;}
+.tao-margin>.tao-list-item{position: relative;left: 15px;}
+.list-group-item>a{font-weight: bold;}
+
+.no-border-radius{border-radius: 0!important;}

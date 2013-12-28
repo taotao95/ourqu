@@ -6,9 +6,9 @@
     <meta name="description" content="" >
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/7.3/styles/github.min.css"/>
-    <link rel="stylesheet" href="style/tao.css"/>
+    <link rel="stylesheet" href="./style/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./style/github.min.css"/>
+    <link rel="stylesheet" href="./style/tao.css"/>
 </head>
 <body>
 <nav class="navbar navbar-default tao-nav navbar-fixed-top" role="navigation">
@@ -39,7 +39,12 @@
             <li><a href="./room_list.html">活动</a></li>
             <li><a href="#">关于</a></li>
         </ul>
-
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="搜索">
+            </div>
+            <button type="submit" class="btn btn-default" id="tao-search-btn">搜索</button>
+        </form>
         <ul class="nav navbar-nav navbar-right">
             <li><a class="btn-cursor" data-toggle="modal" data-target="#Login">登录</a></li>
             <li><a class="btn-cursor" data-toggle="modal" data-target="#reg">注册</a></li>
@@ -58,7 +63,7 @@
                 <p>一起玩，不孤单。</p>
                 <button class="btn btn-success">加入我们</button>
             </div>
-       </li>
+        </li>
         <li style="background-image: url('img/subway.jpg');">
             <div class="inner">
                 <h1>Ourqu,欢迎你！</h1>
@@ -70,69 +75,138 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-12 tao-index-leftT">
-            <h1>热门活动推荐</h1>
-            <a class="tao-btn-index-more" href="#">更多活动</a>
-        </div>
-    </div>
-    <div class="row tao-index-re">
-        <div class="col-md-3  tao-list-item">
-            <div class="thumbnail">
-                <img src="img/index-item-2.jpg" alt="...">
-                <div class="caption">
-                    <h3>标题字数不要太多不要太多<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
-                    <p class="tao-list-detail">一句话介绍，字数不要超</p>
-                    <p><a href="./room.html" class="btn btn-primary" role="button">加入</a> <a href="#" class="btn btn-default" role="button">收藏</a></p>
+        <div class="col-md-9 tao-margin">
+            <div class="col-md-12 tao-index-leftT">
+                <h1>热门活动推荐</h1>
+                <a class="tao-btn-index-more" href="#">More>></a>
+            </div>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-2.jpg" alt="...">
+                    <div class="caption">
+                        <h3><a href="#">标题字数不要太多不要太多</a></h3>
+
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-3  tao-list-item">
-            <div class="thumbnail">
-                <img src="img/index-item-4.jpg" width="250" height="230" alt="...">
-                <div class="caption">
-                    <h3>中华恐龙园<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
-                    <p class="tao-list-detail">一句话介绍</p>
-                    <p><a href="./room.html" class="btn btn-primary" role="button">加入</a> <a href="#" class="btn btn-default" role="button">收藏</a></p>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-2.jpg" alt="...">
+                    <div class="caption">
+                        <h3><a href="#">标题字数不要太多不要太多</a></h3>
+
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-3  tao-list-item">
-            <div class="thumbnail">
-                <img src="img/index-item-3.jpg" alt="...">
-                <div class="caption">
-                    <h3>85度蛋糕<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
-                    <p class="tao-list-detail">一句话介绍，最好几个字我来看看</p>
-                    <p><a href="./roome.html" class="btn btn-primary" role="button">加入</a> <a href="#" class="btn btn-default" role="button">收藏</a></p>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <a href="#">
+
+                    </a>
+                    <img src="img/index-item-2.jpg" alt="...">
+                    <div class="caption">
+                        <h3><a href="#">标题字数不要太多不要太多</a></h3>
+
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-3  tao-list-item">
-            <div class="thumbnail">
-                <img src="img/index-item-5.jpg" alt="...">
-                <div class="caption">
-                    <h3>标题字数不要太多不要太多<span class="badge pull-right tao-list-color" title="参与人数">42</span></h3>
-                    <p class="tao-list-detail">一句话介绍，字数不要超</p>
-                    <p><a href="./room.html" class="btn btn-primary" role="button">加入</a> <a href="#" class="btn btn-default" role="button">收藏</a></p>
+
+            <div class="col-md-12 tao-index-leftT">
+                <h1>随便看看</h1>
+                <a class="tao-btn-index-more" href="#">More>></a>
+            </div>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-2.jpg" alt="...">
+                    <div class="caption">
+                        <h3><a href="#">标题字数不要太多不要太多</a></h3>
+
+                    </div>
                 </div>
             </div>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-2.jpg" alt="...">
+                    <div class="caption">
+                        <h3><a href="#">标题字数不要太多不要太多</a></h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3  tao-list-item">
+                <div class="thumbnail">
+                    <img src="img/index-item-2.jpg" alt="...">
+                    <div class="caption">
+                        <h3><a href="#">标题字数不要太多不要太多</a></h3>
+
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                 <div class="col-md-12">
+                     <div class="panel panel-default no-border-radius">
+                         <div class="panel-heading">
+                             <h3 class="panel-title">什么是Ourqu</h3>
+                         </div>
+                         <div class="panel-body">
+                            ourqu是。。。（这里可以放介绍什么的）
+                             然后下面的是广告
+                         </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="banner-ad">
+                <a href="#">
+                    <img src="img/banner-ad.jpg" alt="ad"/>
+                </a>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="img/index-right-ad.jpg" width="262" alt="ad"/>
+            </a>
+            <ul class="list-group">
+                <li class="list-group-item">正在进行的活动<span class="label label-primary">Now</span></li>
+                <li class="list-group-item"><a href="#">[美食]麻辣主义</a></li>
+                <li class="list-group-item"><a href="#">[旅游]常州中华恐龙园~</a></li>
+                <li class="list-group-item"><a href="#">[娱乐]真心话大冒险，你猜</a></li>
+                <li class="list-group-item"><a href="#">[其他]你猜我猜不猜</a></li>
+            </ul>
+            <a href="./new_room.html" class="btn btn-success" role="button">发起新的活动</a>
+            <h4 class="tao-hhh4">活跃用户</h4>
+            <hr class="tao-index-hr"/>
+            <ul class="tao-ul clearfix">
+                <li><a href="#" class="thumbnail" title="用户名"><img src="img/user-icon-1.jpg" alt="user"/></a></li>
+                <li><a href="#" class="thumbnail" title="用户名"><img src="img/user-icon-2.jpg" alt="user"/></a></li>
+                <li><a href="#" class="thumbnail" title="用户名"><img src="img/user-icon-1.jpg" alt="user"/></a></li>
+                <li><a href="#" class="thumbnail" title="用户名"><img src="img/user-icon-3.jpg" alt="user"/></a></li>
+                <li><a href="#" class="thumbnail" title="用户名"><img src="img/user-icon-2.jpg" alt="user"/></a></li>
+                <li><a href="#" class="thumbnail" title="用户名"><img src="img/user-icon-2.jpg" alt="user"/></a></li>
+                <li><a href="#" class="thumbnail" title="用户名"><img src="img/user-icon-2.jpg" alt="user"/></a></li>
+                <li><a href="#" class="thumbnail" title="用户名"><img src="img/user-icon-1.jpg" alt="user"/></a></li>
+            </ul>
+            <br/>
+
+
         </div>
     </div>
 </div>
 
 <div class="global-footer">
+    <p>&copy; 2012－2013 ourqu.com, all rights reserved</p>
     <p>
         <a href="#">关于ourqu</a>&nbsp;&nbsp;<a href="#">联系我们</a>&nbsp;&nbsp;<a href="#">帮助中心</a>&nbsp;&nbsp;<a href="#">商务合作</a>
     </p>
-    <p>&copy; 2012－2013 ourqu.com, all rights reserved</p>
+
 </div>
 </body>
 
-<script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
-<script type="text/javascript" src="http://www.bootcss.com/p/unslider/jquery.event.swipe.js"></script>
-<script type="text/javascript" src="http://www.bootcss.com/p/unslider/jquery.event.move.js"></script>
-<script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/unslider.min.js"></script>
-<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/unslider.min.js"></script>
+<script type="text/javascript" src="./js/global.js"></script>
 <!-- login modal -->
 <div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="登录" aria-hidden="true">
     <div class="modal-dialog">
